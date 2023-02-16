@@ -4,7 +4,7 @@ import GlobalStyles from '../../assets/styles/global';
 
 import defaultTheme from '../../assets/styles/themes/default';
 import { Container } from './styles';
-import Routes from '../../routes';
+import Router from '../../router';
 
 import Header from '../Header';
 
@@ -15,7 +15,7 @@ function App() {
         <GlobalStyles />
         <Container>
           <Header />
-          <Routes />
+          <Router />
         </Container>
       </ThemeProvider>
     </BrowserRouter>
