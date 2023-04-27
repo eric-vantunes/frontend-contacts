@@ -22,6 +22,9 @@ export default {
     dark: {
       900: '#222222',
     },
+    success: {
+      main: '#51CA73',
+    },
   },
 
 };
